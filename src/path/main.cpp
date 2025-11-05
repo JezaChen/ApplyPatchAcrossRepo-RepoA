@@ -1,7 +1,9 @@
 #include <iostream>
 
 int add(int a, int b) {
-    return a + b;
+    int sum = a + b;
+    std::cout << "The sum is: " << sum << std::endl;
+    return sum;
 }
 
 int main() {
