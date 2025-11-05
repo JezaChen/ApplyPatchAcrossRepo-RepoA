@@ -1,5 +1,6 @@
 #include <iostream>
 
+// This function adds two integers and returns the result
 int add(int a, int b) {
     int sum = a + b;
     std::cout << "The sum is: " << sum << std::endl;
